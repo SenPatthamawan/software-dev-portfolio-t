@@ -22,23 +22,23 @@ const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
                   aria-label="Github"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-github" />
+                    <i className="fa fa-github fa-lg" />
                   </span>
                 </Button>
               ) : null}
               {link ? (
                 <Button
                   className="btn-icon"
-                  color="success"
+                  color="warning"
                   href={link}
                   target="_blank"
                   rel="noopener"
                   aria-label="Twitter"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-arrow-right mr-2" />
+                    <i className="fa fa-globe fa-lg" />
                   </span>
-                  <span className="nav-link-inner--text ml-1">Demo</span>
+                  {/* <span className="nav-link-inner--text ml-1">Demo</span> */}
                 </Button>
               ) : null}
             </div>

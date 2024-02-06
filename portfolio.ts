@@ -15,8 +15,10 @@ export const greetings: GreetingsType = {
   name: "Patthamawan Chanthep",
   title: "Hi all, I'm Patthamawan",
   description:
-    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with React.js, Node.js, Express.js, and MongoDB (MERN Stack). I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
-  resumeLink: "#",
+    "Enthusiastic developer with a passion for crafting clean, efficient code. Committed to staying at the forefront of technology, I bring a blend of technical expertise and creative problem-solving.",
+  description2:
+    "I am currently seeking new opportunities in an entry-level full-stack developer position.",
+  resumeLink: "https://drive.google.com/file/d/1hSqYtFLn4zftB-fPyBJNqa2YF2YxeKHR/view",
 };
 
 export const openSource = {
@@ -35,7 +37,7 @@ export const socialLinks: SocialLinksType = {
 };
 
 export const skillsSection: SkillsSectionType = {
-  title: "What I do",
+  title: "Skills",
   subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   data: [
     {
@@ -61,24 +63,21 @@ export const skillsSection: SkillsSectionType = {
         },
         {
           skillName: "NodeJS",
-          iconifyTag: "vscode-icons:file-type-nodejs",
+          iconifyTag: "vscode-icons:file-type-node",
         },
         {
           skillName: "ExpressJS",
-          iconifyTag: "vscode-icons:file-type-expressjs",
+          iconifyTag: "simple-icons:express",
         },
+        {
+          skillName: "MomgoDB",
+          iconifyTag: "vscode-icons:file-type-mongo",
+        },
+
         {
           skillName: "JavaScript",
           iconifyTag: "logos:javascript",
         },
-        // {
-        //   skillName: "AWS",
-        //   iconifyTag: "logos:aws",
-        // },
-        // {
-        //   skillName: "Heroku",
-        //   iconifyTag: "logos:heroku-icon",
-        // },
         {
           skillName: "Github",
           iconifyTag: "akar-icons:github-fill",
@@ -155,26 +154,23 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: "developer-portfolio",
-    desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "https://github.com/1hanzla100/developer-portfolio",
-    link: "https://developer-portfolio-1hanzla100.vercel.app/",
+    name: "Bobtail Soda Sports Tracking Web App",
+    desc: "Sports Tracking Web application responsive in Bootcamp.",
+    github: "https://github.com/bobtail-soda/sport-app",
+    link: "https://bobtailsoda-sport-app.vercel.app/",
   },
   {
-    name: "Giebo",
-    desc: "A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions.",
-    link: "https://gibeo.io/",
+    name: "React Assessment ",
+    desc: "User & Admin Sector in Bootcamp.",
+    github: "https://github.com/SenPatthamawan/career-changer-react-assessment",
+    link: "https://18-patthamawan-react-assessment.vercel.app/",
   },
   {
-    name: "O Mejor Oferta",
-    desc: "O Mejor Oferta is a mobile marketplace for buying and selling items nearby, helping users find deals on things they want and make money from items they no longer need.",
-    link: "https://play.google.com/store/apps/details?id=com.duseca.mejor_oferta",
-  },
-  {
-    name: "Hooligan Culture",
-    desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
-    link: "https://hooliganculture.com/",
-  },
+    name: "Colmar Academy",
+    desc: "HTML & CSS Assessment in Bootcamp.",
+    github: "https://github.com/SenPatthamawan/18-sen-colmar",
+    link: "https://18-sen-colmar.vercel.app/",
+  }
 ];
 
 export const feedbacks: FeedbackType[] = [
