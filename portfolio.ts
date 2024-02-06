@@ -12,69 +12,73 @@ import {
 } from "./types/sections";
 
 export const greetings: GreetingsType = {
-  name: "Hanzla Tauqeer",
-  title: "Hi all, I'm Hanzla",
+  name: "Patthamawan Chanthep",
+  title: "Hi all, I'm Patthamawan",
   description:
-    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
+    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with React.js, Node.js, Express.js, and MongoDB (MERN Stack). I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
   resumeLink: "#",
 };
 
 export const openSource = {
-  githubUserName: "1hanzla100",
+  githubUserName: "SenPatthamawan",
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  email: "mailto:hanzla.tauqeer123@gmail.com",
-  linkedin: "https://www.linkedin.com/in/1hanzla100/",
-  github: "https://github.com/1hanzla100",
-  instagram: "https://www.instagram.com/__hanzla100",
+  email: "mailto:sen.patthamawan@gmail.com",
+  linkedin: "https://www.linkedin.com/in/patthamawan-chanthep/",
+  github: "https://github.com/SenPatthamawan",
+  // instagram: "https://www.instagram.com/__hanzla100",
   // facebook: 'https://www.facebook.com/1hanzla100',
   // twitter: 'https://twitter.com/1hanzla100',
 };
 
 export const skillsSection: SkillsSectionType = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   data: [
     {
       title: "Full Stack Development",
       lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
-        emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
-        emoji("⚡ Building responsive static websites using Next.js"),
-        emoji("⚡ Building RESTful APIs in Django & Django REST Framework"),
+        emoji("⚡ Building responsive Single-Page-Apps (SPA) in React.js"),
+        emoji("⚡ Building responsive static websites using Tailwind CSS"),
+        emoji("⚡ Building RESTful APIs in NodeJS & Express.js"),
       ],
       softwareSkills: [
-        {
-          skillName: "Python",
-          iconifyTag: "logos:python",
-        },
-        {
-          skillName: "Django",
-          iconifyTag: "vscode-icons:file-type-django",
-        },
-        {
-          skillName: "JavaScript",
-          iconifyTag: "logos:javascript",
-        },
+        // {
+        //   skillName: "Python",
+        //   iconifyTag: "logos:python",
+        // },
+        // {
+        //   skillName: "Django",
+        //   iconifyTag: "vscode-icons:file-type-django",
+        // },
         {
           skillName: "Reactjs",
           iconifyTag: "vscode-icons:file-type-reactjs",
         },
         {
-          skillName: "Nextjs",
-          iconifyTag: "vscode-icons:file-type-light-next",
+          skillName: "NodeJS",
+          iconifyTag: "vscode-icons:file-type-nodejs",
         },
         {
-          skillName: "AWS",
-          iconifyTag: "logos:aws",
+          skillName: "ExpressJS",
+          iconifyTag: "vscode-icons:file-type-expressjs",
         },
         {
-          skillName: "Heroku",
-          iconifyTag: "logos:heroku-icon",
+          skillName: "JavaScript",
+          iconifyTag: "logos:javascript",
         },
+        // {
+        //   skillName: "AWS",
+        //   iconifyTag: "logos:aws",
+        // },
+        // {
+        //   skillName: "Heroku",
+        //   iconifyTag: "logos:heroku-icon",
+        // },
         {
           skillName: "Github",
           iconifyTag: "akar-icons:github-fill",
@@ -196,18 +200,18 @@ export const feedbacks: FeedbackType[] = [
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: "Hanzla Tauqeer",
+  title: "Patthamawan Chanthep",
   description: greetings.description,
-  author: "Hanzla Tauqeer",
+  author: "Patthamawan Chanthep",
   image: "https://avatars.githubusercontent.com/u/59178380?v=4",
   url: "https://developer-portfolio-1hanzla100.vercel.app",
   keywords: [
-    "Hanzla",
-    "Hanzla Tauqeer",
-    "@1hanzla100",
-    "1hanzla100",
+    "Patthamawan",
+    "Patthamawan Chanthep",
+    "@SenPatthamawan",
+    "SenPatthamawan",
     "Portfolio",
-    "Hanzla Portfolio ",
-    "Hanzla Tauqeer Portfolio",
+    "Patthamawan Portfolio ",
+    "Patthamawan Chanthep Portfolio",
   ],
 };
